@@ -1,0 +1,107 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+
+
+}
+
+.formInput {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-right: -40%;
+    margin-top: -38%;
+    margin-bottom: 0%;
+}
+
+.formInput label {
+    margin: 10px 10px 10px 0;
+    margin-bottom: 15px;
+}
+
+.tail button {
+    width: 250px;
+    height: 50px;
+    background: #23557F;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.formInput input {
+    width: 15%;
+    height: 30px;
+    box-shadow: inset 0px 4px 4px rgba(255, 255 255, 0.3);
+    border-radius: 10px;
+    opacity: 25%;
+}
+
+.middle img {
+    width: 35%;
+    margin-top: 30px;
+}
+
+.tail {
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 450px) {
+    .formInput input {
+        width: 50%;
+        align-content: center;
+        margin-left: -3.5cm;
+    }
+
+    .forms .formInput label {
+        margin-left: -3.5cm;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .labelDesign{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+
+    .middle img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .formInput button {
+        width: 50%;
+        margin-left: -125px;
+    }
+
+    .formInput p {
+        font-size: 100%;
+        margin-right: 3.5cm;
+    }
+
+    .head img {
+        width: 100%;
+
+    }
+    .tail {
+        text-align: center;
+        margin-left: 3%;
+        margin-top: 10%;
+        
+    }
+
+    .tail .signUp{
+        margin-top: 15px;
+    }
+    .forms {
+        margin-top: 40%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,77 @@
+.benefit{
+    
+    
+    .form{
+    width: 100%;
+    display: flex;
+    background: rgb(94, 94, 235);
+    height: 800px;
+
+    
+
+    .formInp{
+        margin-top: 10px;
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+
+
+        .beneficiary{
+            font-size: 60px;
+            font-weight: 600;
+            color: blue;
+            margin-bottom: 20px;
+        }
+    
+
+
+        .tag{
+            font-size: 35px;
+            font-weight: 600;
+            color: rgb(56, 56, 156);
+            // margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .inputForm{
+            width: 800px;
+            height: 70px;
+            border-radius: 10px;
+            border: none;
+
+
+            &::placeholder{
+                font-size: 30px;
+                font-weight: 300;
+                margin-left: 20px;
+            }
+        }
+
+        .saveBeen{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+            .saveBenTick{
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                margin-left: 20px;
+            }
+        }
+
+        .submit{
+            width: 600px;
+            height: 50px;
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-left: 80px;
+            border: none;
+            color: white;
+            font-size: 40px;
+            font-weight: 500;
+            background: rgb(56, 56, 156);;
+        }
+    }
+}}

@@ -1,0 +1,145 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(215, 208, 208);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
+    .up{
+        position: relative;
+
+
+
+        .userDetails{
+        display: flex;
+        background: rgb(29, 29, 113);
+        height: 450px;
+
+        .left{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 150px;
+            gap: 5px;
+            width: 100%;
+            height: 250px;
+
+            .userImg{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+
+            .greet{
+                display: flex;
+                flex-direction: column;
+
+                .welcome{
+                    font-size: 80px;
+                    color: white;
+                }
+
+                .name{
+                    font-size: 30px;
+                    color: white;
+                    margin-left: 15px;
+                }
+            }
+        }
+
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            // justify-content: space-around;
+
+
+            .checkBal{
+                display: flex;
+                // flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 25px;
+                
+
+                .myBalance{
+                    color: white;
+                    font-size: 40px;                }
+                    margin-right: 1px;
+                    margin-bottom: 10px;
+            }
+
+            .balImg{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+
+            .balance{
+                font-size: 60px;
+                font-weight: 600;
+                color: white;
+            }
+        }
+    }
+}
+
+
+.down{
+    width: 60%;
+    position: absolute;
+    left: 370px;
+    top: 310px;
+    
+    
+
+    .services{
+        display: flex;
+        background: rgb(180, 175, 175);
+        border-radius: 20px;
+
+        // flex-wrap: wrap;
+
+
+        .service{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgb(164, 154, 154);
+            
+            .link{
+                text-decoration: inherit;
+                
+            }
+
+            .transfer{
+                display: flex;
+                flex-direction: column;
+                margin-left: 200px;
+                border: 1px solid rgb(145, 133, 133);
+                margin-bottom: 10px;
+
+
+                .trfimg{
+                    width: 250px;
+                    height: 200px;
+                    border-radius: 10px;
+                    object-fit: cover;
+
+                }
+
+                .trfMoney{
+                    font-size: 30px;
+                    font-weight: 500;
+                    color: rgb(145, 102, 187);
+                    margin-left: 40px;
+                }
+            }
+        }
+    }
+}
+}
